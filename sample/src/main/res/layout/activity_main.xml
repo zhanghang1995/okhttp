@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sample.MainActivity">
+
+    <Button
+     android:id="@+id/do_Get"
+     android:onClick="doGet"
+     android:text="发送get请求"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/do_POST"
+        android:onClick="doPost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送POST请求" />
+    <Button
+        android:id="@+id/do_POST_String"
+        android:onClick="doPostString"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送POSTString请求" />
+    <Button
+        android:id="@+id/do_POST_File"
+        android:onClick="doPostFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送POSTFile请求" />
+
+    <Button
+        android:id="@+id/do_POST_Form"
+        android:onClick="doUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送POSTFile请求" />
+
+    <Button
+        android:id="@+id/do_down_Form"
+        android:onClick="doDownload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送POSTFile请求" />
+
+
+
+
+</LinearLayout>
